@@ -13,6 +13,7 @@
         android:layout_marginTop="50dp"
         android:layout_marginLeft="50dp"
         android:layout_marginRight="50dp"
+        android:textColor="@color/white"
         android:backgroundTint="@color/Button"
         android:text="AppBar with Options Menu" />
 
@@ -23,6 +24,7 @@
         android:layout_marginTop="50dp"
         android:layout_marginLeft="50dp"
         android:layout_marginRight="50dp"
+        android:textColor="@color/white"
         android:backgroundTint="@color/Button"
         android:text="Contextual Menu" />
 
@@ -33,6 +35,7 @@
         android:layout_marginTop="50dp"
         android:layout_marginLeft="50dp"
         android:layout_marginRight="50dp"
+        android:textColor="@color/white"
         android:backgroundTint="@color/Button"
         android:text="Popup Menu" />
 
@@ -43,6 +46,7 @@
         android:layout_marginTop="50dp"
         android:layout_marginLeft="50dp"
         android:layout_marginRight="50dp"
+        android:textColor="@color/white"
         android:backgroundTint="@color/Button"
         android:text="Dialogs" />
 
@@ -53,6 +57,7 @@
         android:layout_marginTop="50dp"
         android:layout_marginLeft="50dp"
         android:layout_marginRight="50dp"
+        android:textColor="@color/white"
         android:backgroundTint="@color/Button"
         android:text="Pickers" />
 

@@ -11,6 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Show Popup Menu"
+        android:textColor="@color/white"
         android:backgroundTint="@color/Button"
         android:padding="16dp" />
 </LinearLayout>
