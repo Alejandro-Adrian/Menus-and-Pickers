@@ -7,13 +7,20 @@
     android:gravity="center"
     android:padding="16dp">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/welcomePicker"/>
+
     <Button
         android:id="@+id/btnDatePicker"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/Button"
         android:textColor="@color/white"
-        android:text="Show Date Picker" />
+        android:layout_margin="25dp"
+        android:text="@string/datebtn" />
 
     <Button
         android:id="@+id/btnTimePicker"
@@ -21,5 +28,6 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/Button"
         android:textColor="@color/white"
-        android:text="Show Time Picker" />
+        android:layout_margin="25dp"
+        android:text="@string/timebtn" />
 </LinearLayout>

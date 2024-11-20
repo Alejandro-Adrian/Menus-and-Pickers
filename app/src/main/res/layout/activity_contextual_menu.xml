@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textColor="@color/white"
-        android:text="Long Press Here for Context Menu"
+        android:text="@string/contexual"
         android:textSize="18sp"
         android:padding="16dp"
         android:layout_marginTop="250dp"

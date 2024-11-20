@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Menus and Pickers</string>
+    <string name="main_welcome">Welcome to Menus and pickers!!!</string>
+    <string name="btn1">AppBar with Options Menu</string>
+    <string name="btn2">Contextual Menu</string>
+    <string name="btn3">Popup Menu</string>
+    <string name="btn4">Popup Menu</string>
+    <string name="btn5">Pickers</string>
+
+    <string name="contexual">Long Press Here for Context Menu</string>
+    <string name="appbar">This is the AppBar Activity</string>
+
+    <string name="welcomePop">Welcome!!! This is the Pop-up activity</string>
+    <string name="welcomePicker">Welcome!!! This is the Pickers activity</string>
+
+    <string name="popbtn">Show Popup Menu</string>
+    <string name="datebtn">Show Date Picker</string>
+    <string name="timebtn">Show Time Picker</string>
 </resources>

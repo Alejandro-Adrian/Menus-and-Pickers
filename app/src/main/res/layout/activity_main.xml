@@ -6,59 +6,76 @@
     android:background="@color/background"
     android:padding="16dp">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:layout_margin="25dp"
+        android:text="@string/main_welcome"/>
+
     <Button
         android:id="@+id/btnAppBar"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginTop="50dp"
         android:layout_marginLeft="50dp"
         android:layout_marginRight="50dp"
         android:textColor="@color/white"
         android:backgroundTint="@color/Button"
-        android:text="AppBar with Options Menu" />
+        android:text="@string/btn1" />
 
     <Button
         android:id="@+id/btnContextualMenu"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginTop="50dp"
         android:layout_marginLeft="50dp"
         android:layout_marginRight="50dp"
+        android:paddingHorizontal="55dp"
         android:textColor="@color/white"
         android:backgroundTint="@color/Button"
-        android:text="Contextual Menu" />
+        android:text="@string/btn2" />
 
     <Button
         android:id="@+id/btnPopupMenu"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginTop="50dp"
         android:layout_marginLeft="50dp"
         android:layout_marginRight="50dp"
+        android:paddingHorizontal="60dp"
         android:textColor="@color/white"
         android:backgroundTint="@color/Button"
-        android:text="Popup Menu" />
+        android:text="@string/btn3" />
 
     <Button
         android:id="@+id/btnDialogs"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginTop="50dp"
         android:layout_marginLeft="50dp"
         android:layout_marginRight="50dp"
+        android:paddingHorizontal="65dp"
         android:textColor="@color/white"
         android:backgroundTint="@color/Button"
-        android:text="Dialogs" />
+        android:text="@string/btn4" />
 
     <Button
         android:id="@+id/btnPickers"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginTop="50dp"
         android:layout_marginLeft="50dp"
         android:layout_marginRight="50dp"
+        android:paddingHorizontal="70dp"
         android:textColor="@color/white"
         android:backgroundTint="@color/Button"
-        android:text="Pickers" />
+        android:text="@string/btn5" />
 
 </LinearLayout>

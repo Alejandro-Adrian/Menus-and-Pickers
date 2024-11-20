@@ -6,11 +6,18 @@
     android:background="@color/background"
     android:gravity="center">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_margin="25dp"
+        android:text="@string/welcomePop"/>
+
     <Button
         android:id="@+id/btnShowPopup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Show Popup Menu"
+        android:text="@string/popbtn"
         android:textColor="@color/white"
         android:backgroundTint="@color/Button"
         android:padding="16dp" />

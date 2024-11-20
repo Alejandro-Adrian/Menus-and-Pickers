@@ -20,9 +20,9 @@ public class PopupMenuActivity extends AppCompatActivity {
             PopupMenu popupMenu = new PopupMenu(PopupMenuActivity.this, btnShowPopup);
             popupMenu.getMenuInflater().inflate(R.menu.popup_menu, popupMenu.getMenu());
             popupMenu.setOnMenuItemClickListener(item -> {
-                int id = item.getItemId(); // Get the menu item ID
+                int id = item.getItemId();
 
-                // Replace switch-case with if-else
+
                 if (id == R.id.popup_option1) {
                     Toast.makeText(PopupMenuActivity.this, "Popup Option 1 Selected", Toast.LENGTH_SHORT).show();
                     return true;

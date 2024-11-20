@@ -18,9 +18,9 @@ public class DialogsActivity extends AppCompatActivity {
         btnShowDialog.setOnClickListener(v -> {
             AlertDialog.Builder builder = new AlertDialog.Builder(DialogsActivity.this);
             builder.setTitle("Sample Dialog")
-                    .setMessage("This is an example of a dialog.")
-                    .setPositiveButton("OK", (dialog, which) -> dialog.dismiss())
-                    .setNegativeButton("Cancel", (dialog, which) -> dialog.dismiss())
+                    .setMessage("Hello and welcome, I hope you have a good day!!! -adrian")
+                    .setPositiveButton("Good day", (dialog, which) -> dialog.dismiss())
+                    .setNegativeButton("Bad day", (dialog, which) -> dialog.dismiss())
                     .show();
         });
     }
