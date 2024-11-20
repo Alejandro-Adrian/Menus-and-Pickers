@@ -4,7 +4,7 @@
     <string name="btn1">AppBar with Options Menu</string>
     <string name="btn2">Contextual Menu</string>
     <string name="btn3">Popup Menu</string>
-    <string name="btn4">Popup Menu</string>
+    <string name="btn4">Dialog</string>
     <string name="btn5">Pickers</string>
     <string name="dialogbtn">Show Dialog</string>
 
